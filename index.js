@@ -55,7 +55,7 @@ app.post("/", function (req, res) {
     });
   });
 
-  // request.write(JSONdata);
+  request.write(JSONdata);
   request.end();
 });
 
